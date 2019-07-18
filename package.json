@@ -1,5 +1,5 @@
 {
-  "name": "error-bouncer",
+  "name": "express-error-bouncer",
   "version": "1.0.0",
   "description": "A central error handler for express",
   "main": "index.js",

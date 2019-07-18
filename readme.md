@@ -6,7 +6,7 @@
 - In your express server file, require `bouncer`
 
 ```javascript
-const { bouncer } = require('error-bouncer');
+const { bouncer } = require('express-error-bouncer');
 
 const express = require('express')
 
@@ -52,4 +52,4 @@ The above would return:
 # Contribution
 - Got an idea on how to make this package better, feel free to contribute
   
-Follow me on twitter [@iam_nedsoft](https://twitter.com) for more updates
+Follow me on twitter [@iam_nedsoft](https://twitter.com/iam_nedsoft) for more updates
