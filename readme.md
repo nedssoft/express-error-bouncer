@@ -6,7 +6,7 @@
 - In your express server file, require `bouncer`
 
 ```javascript
-const { bouncer } = require('error-bouncer');
+const { bouncer } = require('express-error-bouncer');
 
 const express = require('express')
 
