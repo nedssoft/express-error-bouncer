@@ -1,0 +1,25 @@
+{
+  "name": "error-bouncer",
+  "version": "1.0.0",
+  "description": "A central error handler for express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo yes"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/oriechinedu/express-error-bouncer.git"
+  },
+  "keywords": [
+    "Express",
+    "NodeJs",
+    "Error",
+    "Middleware"
+  ],
+  "author": "Chinedu Orie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oriechinedu/express-error-bouncer/issues"
+  },
+  "homepage": "https://github.com/oriechinedu/express-error-bouncer#readme"
+}

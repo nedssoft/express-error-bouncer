@@ -48,3 +48,8 @@ The above would return:
 }
 
 ```
+
+# Contribution
+- Got an idea on how to make this package better, feel free to contribute
+  
+Follow me on twitter [@iam_nedsoft](https://twitter.com) for more updates
