@@ -1,8 +1,9 @@
 ## A Central error handler for express app
+Express error bouncer is a middleware that abstracts the handling of HTTP errors in an express application. It eliminates the need to return error response for every checkpoint in the application by using the express error-handling middleware.
 
 ## Usage
 
-- npm install error-handler
+- npm install `express-error-bouncer`
 - In your express server file, require `bouncer`
 
 ```javascript
@@ -26,8 +27,8 @@ app.listen(PORT, () => console.log(`server listening at port ${PORT}`))
 
 Now anywhere in the app that you want to catch error, you can use the `ErrorHandler constructor as shown below:
 
-```javascript
-const { ErrorHandler } = require('error-bouncer')
+```js
+const { ErrorHandler } = require('express-error-bouncer')
 
 const testBouncer = (req, res, next) => {
   try {

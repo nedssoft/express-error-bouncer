@@ -23,9 +23,10 @@ class ErrorHandler extends Error {
  */
 const handleError = (err, res) => {
   const { statusCode, message } = err;
-  res.status(statusCode).json({
+  const code = statusCode ? statusCode : 500
+  res.status(code).json({
     status: "error",
-    code: statusCode,
+    code: code,
     message: message ? message : "Internal server error"
   });
 };
